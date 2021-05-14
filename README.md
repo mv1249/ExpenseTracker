@@ -1,4 +1,10 @@
+
+
+
 # ExpenseTracker
+
+
+
 
 Track all your Expenses in a Smart way,here at Expense Tracker,you can visualise all expenses/savings made in form of graphs,one can also add todo's inorder to keep track of all
 the activities which are performed by one during the day,one can also view their transaction history month wise,how much was spent on which item and if there were any savings 
@@ -6,6 +12,52 @@ what was the source of the Saving,and also one can track their Expense Ratios by
 in the alert boxes and Expense Tracker is yours!,Organise your Expenses,ToDo's in a smart way at Expense Tracker!
 
 Here is url from where you can access the project--> https://trackyourexpenseshere.herokuapp.com/
+
+
+I have made the Demo of my Project which is shown below,i have shared the GIF files,ignore the quality:(,one can download the demo video which i have posted in the repository
+for getting the clear view of Expense Tracker!,one can click on the Video Icon and the user will be redirected to the video link,just click on view raw and the video will be downloaded on your local system :)
+
+
+[<img align = right height = 50 width = 50 src = "https://www.vhv.rs/dpng/d/451-4511009_cool-chrome-transparent-custom-google-chrome-logo-hd.png">](https://trackyourexpenseshere.herokuapp.com/)
+
+[<img align = right height = 50 width = 50 src = "https://edent.github.io/SuperTinyIcons/images/svg/github.svg">](https://github.com/mv1249/ExpenseTracker)
+
+[<img align = right height = 50 width = 50 src = https://cdn4.iconfinder.com/data/icons/social-media-and-logos-11/32/Logo_Youtube-512.png>](https://github.com/mv1249/ExpenseTracker/blob/main/expensetracker.rar)
+
+
+# DEMO 
+
+### Intro 
+
+- ##### Enter your Expenses/Savings Form
+
+-![.](images/intro.gif)
+
+
+### Transactions
+
+- ##### View Your Transaction History
+
+-![.](images/transaction.gif)
+
+
+
+### ToDo List
+
+- ##### Enter your Todo's and view them
+
+-![.](images/todo.gif)
+
+
+### Dashboard 
+
+- ##### Visualize your Expenses/Savings here
+
+-![.](images/dashboard.gif)
+
+
+
+
 
 ## Tools and Technologies Used
 
