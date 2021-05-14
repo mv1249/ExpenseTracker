@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/043883177b.js" crossorigin="anonymous"></script>
+
+    <title>Expese Tracker ₹</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Expense Tracker</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/dashboard">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/transactions">Transaction History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/displaytodo">ToDo List</a>
+                    </li>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Form -->
+
+    <div class="container my-4 text-center">
+
+
+        <!-- H1 -->
+
+        <h3 style="text-align: center;">Expense Tracker</h3>
+
+        <!-- Alert -->
+
+
+        {%if value%}
+
+            <div class="alert alert-danger my-4" role="alert">
+                <h4 class="alert-heading">Please Do Fill in Your FullName</h4>
+                <p>You have not filled in Your FullName,Please do fill in your FullName,Expense Tracker finds it easy to track records by your Full Name,as multiple Users are working on Expense Tracker it becomes easier for Expense Tracker to Query out your
+                    Sepcific Results if you provide your FullName :)</p>
+                <hr>
+            </div>
+
+            <div class="col-md-12 text-center my-4 mx-2">
+                   
+                    <a href="/">
+                        <button class="btn btn-primary btn-md" type="submit">Go Back</button>
+                    </a>
+            </div>
+
+        {%elif month_topass%}
+
+            <div class="alert alert-danger my-4" role="alert">
+                <h4 class="alert-heading">Please Do Fill in Your ToDo</h4>
+                <p>You have not filled in the ToDo,please do fill in the ToDo so that it gets recorded and you can navigate through the view Todo lists option in the navigation bar and select your month and can view your all ToDo's :)</p>
+                <hr>
+            </div>
+
+            <div class="col-md-12 text-center my-4 mx-2">
+                
+                <a href="/">
+                    <button class="btn btn-primary btn-md" type="submit">Go Back</button>
+                </a>
+            </div>
+
+        {%elif month_pass%}
+            <div class="alert alert-danger my-4" role="alert">
+                <h4 class="alert-heading">Month Not Selected</h4>
+                <p>You have not selected the Month for your ToDo,please do select the Month in which you want to post your ToDo,it will be easier for Expense Tracker for Tracking Your Montly ToDo's,you can navigate through the view Todo lists option in the navigation
+                    bar and select your month and can view your all ToDo's :)</p>
+                <hr>
+            </div>
+
+             <div class="col-md-12 text-center my-4 mx-2">
+               
+                <a href="/">
+                    <button class="btn btn-primary btn-md" type="submit">Go Back</button>
+                </a>
+            </div>
+
+        {%elif datenotselected%}
+            <div class="alert alert-danger my-4" role="alert">
+                <h4 class="alert-heading">No Date Selected</h4>
+                <p>You have not selected the Date for Your ToDo,it is requested to select the Date for Your ToDo,coz only then you can track your ToDo's in an efficient manner right,so please do fill in the Date,it is Mandotory to fill in!</p>
+            </div>
+
+            <div class="col-md-12 text-center my-4 mx-2">
+                
+                <a href="/">
+                    <button class="btn btn-primary btn-md" type="submit">Go Back</button>
+                </a>
+            </div>
+
+        {% else %}
+
+            <div class="alert alert-danger my-4" role="alert">
+                <h4 class="alert-heading">No Date Selected</h4>
+                <p>You have not selected the Date for Your ToDo,it is requested to select the Date for Your ToDo,coz only then you can track your ToDo's in an efficient manner right,so please do fill in the Date,it is Mandotory to fill in!</p>
+            </div>
+
+            <div class="col-md-12 text-center my-4 mx-2">
+                
+                <a href="/">
+                    <button class="btn btn-primary btn-md" type="submit">Go Back</button>
+                </a>
+            </div>
+
+
+        {% endif %}
+
+
+
+
+        <!-- form -->
+
+
+
+
+
+    </div>
+
+    
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
