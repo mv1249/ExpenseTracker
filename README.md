@@ -31,14 +31,20 @@ for getting the clear view of Expense Tracker!,one can click on the Video Icon a
 
 - ##### Enter your Expenses/Savings Form
 
--![.](images/intro.gif)
+<p align = "center">
+   <img src="https://github.com/mv1249/ExpenseTracker/blob/main/images/intro.gif"/>
+</p>
+ 
 
 
 ### Transactions
 
 - ##### View Your Transaction History
 
--![.](images/transaction.gif)
+<p align = "center">
+   <img src="https://github.com/mv1249/ExpenseTracker/blob/main/images/transaction.gif"/>
+</p>
+
 
 
 
@@ -46,14 +52,24 @@ for getting the clear view of Expense Tracker!,one can click on the Video Icon a
 
 - ##### Enter your Todo's and view them
 
--![.](images/todo.gif)
+<p align = "center">
+   <img src="https://github.com/mv1249/ExpenseTracker/blob/main/images/todo.gif"/>
+</p>
+
+
+
+
 
 
 ### Dashboard 
 
 - ##### Visualize your Expenses/Savings here
 
--![.](images/dashboard.gif)
+<p align = "center">
+   <img src="https://github.com/mv1249/ExpenseTracker/blob/main/images/dashboard.gif"/>
+</p>
+
+
 
 
 
